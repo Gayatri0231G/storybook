@@ -40,9 +40,18 @@
 
   h5{
     color: rgb(4, 131, 190);
-    margin-top: 15px;
+    margin-top: 1px;
   }
   
+  .icon-grid1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: flex-start;
+    flex: 1;
+    margin-left: 20px;
+  }
+
   .icon-grid {
     display: flex;
     flex-wrap: wrap;
