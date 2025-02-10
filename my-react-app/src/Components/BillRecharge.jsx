@@ -3,6 +3,7 @@ import { FaMobileAlt, FaLightbulb, FaSatelliteDish, FaTint, FaGasPump, FaUmbrell
 import { FaPlane, FaBus, FaTrain, FaHotel, FaCar } from "react-icons/fa6";
 import "./BillRecharge.css";
 
+
 const billServices = [
   { name: "Mobile", icon: <FaMobileAlt style={{ color: "#ff6600" }} /> }, 
   { name: "Electricity", icon: <FaLightbulb style={{ color: "#ffd700" }} /> }, 
@@ -13,7 +14,11 @@ const billServices = [
 ];
 
 const travelServices = [
-  { name: "Flight", icon: <FaPlane style={{ color: "#ff0000" }} />, extra: "Powered by Easemytrip.com" }, 
+  { 
+    name: "Flight", 
+    icon: <FaPlane style={{ color: "#ff0000" }} />, 
+    extra: <>Powered by <br /> Easemytrip.com</> 
+  },
   { name: "Bus", icon: <FaBus style={{ color: "#228b22" }} />, extra: "Affordable Rides" }, 
   { name: "Train", icon: <FaTrain style={{ color: "#8b4513" }} /> }, 
   { name: "Hotel", icon: <FaHotel style={{ color: "#4b0082" }} />, extra: "Budget-friendly Stay" }, 
@@ -26,7 +31,13 @@ const Services = () => {
       <div className="row">
         <div className="section">
           <div className="left-content">
+          <div className="bills-container">
             <h2 className="section-title">Bills & Recharge</h2>
+            <div className="brand">
+              <span className="bharat">Bharat</span>
+              <span className="connect">Connect</span>
+            </div>
+          </div>
             <p className="description">Pay your bills & recharge instantly with Justdial</p>
             <h5>Explore More</h5>
           </div>

@@ -24,12 +24,41 @@
     width: 300px;
     display: flex;
     flex-direction: column;
+    /* justify-content: space-between; */
+  }
+  .bills-container {
+    display: flex;
+    justify-content: space-between; /* Adds space between the two elements */
+    align-items: center;
+    width: 100%; /* Ensures full width for spacing effect */
+    font-family: Arial, sans-serif;
   }
   
   .section-title {
     font-size: 22px;
     font-weight: 600;
     color: #333;
+    
+  }
+  
+  .brand {
+    display: flex;
+    flex-direction: column; /* Places "Bharat" on top of "Connect" */
+    text-align: right; /* Aligns text to the right */
+  }
+  
+  .bharat {
+    font-size: 12px;
+    font-weight: 500;
+    color: #f48120;
+    margin-right: 70px;
+  }
+  
+  .connect {
+    font-size: 12px;
+    font-weight: 500;
+    color: #f48120;
+    margin-right: 60px;
   }
   
   .description {
@@ -46,16 +75,16 @@
   .icon-grid1 {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 45px;
     justify-content: flex-start;
     flex: 1;
-    margin-left: 20px;
+    margin-left: 10px;
   }
 
   .icon-grid {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 33px;
     justify-content: flex-start;
     flex: 1;
   }
@@ -100,8 +129,8 @@
   .extra {
     font-size: 10px;
     color: green;
+    text-align: center;
   }
-  
   
 
   
