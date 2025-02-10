@@ -24,13 +24,12 @@
     width: 300px;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
   }
   .bills-container {
     display: flex;
-    justify-content: space-between; /* Adds space between the two elements */
+    justify-content: space-between; 
     align-items: center;
-    width: 100%; /* Ensures full width for spacing effect */
+    width: 100%;
     font-family: Arial, sans-serif;
   }
   
@@ -43,8 +42,8 @@
   
   .brand {
     display: flex;
-    flex-direction: column; /* Places "Bharat" on top of "Connect" */
-    text-align: right; /* Aligns text to the right */
+    flex-direction: column; 
+    text-align: right; 
   }
   
   .bharat {
